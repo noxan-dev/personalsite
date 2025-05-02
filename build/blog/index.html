@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Chaim Malek">
+    <meta name="description" content="software">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="/static/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="/static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+          href="/static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/favicon/manifest.json">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap"
+          rel="stylesheet">
+    <title>Blog</title>
+</head>
+
+<body>
+<div class="layout">
+    <header>
+    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-[#16161a] border-b border-[#242629]">
+        <div id="collapse"
+             class="container flex flex-wrap justify-between items-center mx-auto px-5 py-2">
+            <a href="/" class="flex items-center" title="Chaim's Site">
+                <img src="/static/images/logo.png" class="mr-3 h-6 sm:h-9"
+                     alt="Logo">
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+                    class="transition-all inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-xl lg:font-semibold">
+                    <li>
+                        <a href="/"
+                           class=" block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:p-0 text-white hover:text-gray-400"
+                           aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about/"
+                           class=" block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:p-0 text-white hover:text-gray-400">About</a>
+                    </li>
+                    <li>
+                        <a href="/#contact"
+                           class="block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:p-0 text-white hover:text-gray-400">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/blog/"
+                           class="block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:p-0 text-white hover:text-gray-400">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/gallery/"
+                           class=" block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:p-0 text-white hover:text-gray-400">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    
+
+    <section id="blog" class="bg-[#16161a]">
+        <div>
+          <p> Due to Heroku removing their free tier I will have to redeploy to another service. Hopefully in the near future</p>
+        </div>
+    </section>
+
+
+
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/static/js/index.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+</body>
+</html>
